@@ -31,15 +31,14 @@ body {
   background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), repeating-linear-gradient(220deg, black 0px, black 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, black 0px, black 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, black 0px, black 19px, transparent 19px, transparent 22px), linear-gradient(90deg, #00fffa, #f0f0f0);
 }
 
-.my-button {
-  /* Your styling code for the button goes here */
-  background-color: #3498db;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+/* Add this to your styles.css */
+.visit-crossword-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
 }
+
 
 .flowers {
   position: relative;
