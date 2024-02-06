@@ -5,6 +5,6 @@ onload = () => {
 };
 
 // Add the crosswordButton event listener
-document.getElementById('crosswordButton').addEventListener('click', function() {
+document.querySelector('.visit-crossword-button').addEventListener('click', function() {
     window.location.href = 'https://crosswordlabs.com/view/not-so-mini-crossword';
 });
